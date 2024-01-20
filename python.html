@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<style>
+    body , html{
+        background-color: #90E0EFFF;
+    }
+    .topnav {
+        overflow: hidden;
+        position:absolute;
+        right: 0;
+        top: 15px;
+        border-radius: 4px;
+    }
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .topnav a:active {
+        background-color: #04AA6D;
+        color: white;
+    }
+    #p{
+        color: white;
+    }
+    #sd{
+        position: absolute;
+        top: 350px;
+        right: 345px;
+        width: 520px;
+        height: 480px;
+    }
+    #img{
+        height: 483px;
+        width: auto;
+        position: absolute;
+        top: 348.8px;
+        left: 350px;
+        box-shadow: 5px 5px 10px 1px rgb(0, 0, 0, 10%);
+        border-radius: 10px 0 0 10px;
+        filter: blur(2.8px);
+    }
+    .a{
+        position: absolute;
+        top: 600px;
+        left: 415px;
+        font-size: xx-large;
+        color: white;
+    }
+    #test_e{
+        display: none;
+    }
+    #img_2{
+        height: 80px;
+        width: 100px;
+    }
+    #f{
+        width: 1100px;
+        margin-left: 560px;
+        position: absolute;
+        top: -2px;
+    }
+    #card{
+        width: 410px;
+        position: absolute;
+        top: 18px;
+        left: 20px;
+    }
+    .text{
+        position: absolute;
+        color: black;
+    }
+    #par{
+        top: 25px;
+        left: 150px;
+        font-size: 35px;
+    }
+    #par_1{
+        top: 75px;
+        left: 155px;
+    }
+    #div{
+        height: 88px;
+    }
+    #submit{
+        position: absolute;
+        width: 420px;
+    }
+    #success{
+        position: absolute;
+        top: 450px;
+        left: 100px;
+        height: 100px;
+        font-size: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="card card-body shadow shadow-lg" id="card">
+    <img id="img_2" alt="" src="project.png">
+    <p class="text" id="par"> اكـــاديـمية نبـــراسـ </p>
+    <p class="text" id="par_1">Nibras Progrmming Academy </p>
+</div>
+<div class="card-body " id="f">
+    <div class="shadow shadow-lg card ">
+        <div class="p-3">
+            <div id="div" class="navbar">
+                <p id="p">َ</p>
+                <div class="topnav">
+                    <a title="About Us!!" class="btn btn-secondary mr-1" href="">About Us</a>
+                    <a title="Training Courses!!" class="btn btn-success mr-1" href="">Training Courses</a>
+                    <a title="Feedback!!" class="btn btn-danger mr-1" href="">Feedback</a>
+                </div>
+            </div>
+            <div id="success"></div>
+        </div>
+    </div>
+</div>
+<div id="container"  class="container">
+    <div id="sd" class="box">
+        <h1>Login</h1>
+        <div id="errors"></div>
+        <form>
+            <label>Username</label>
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <input id="username" type="text" placeholder="Enter Username">
+            </div>
+            <label>Password</label>
+            <div>
+                <i class="fa-solid fa-lock"></i>
+                <input id="pass" type="password" placeholder="Enter Password">
+            </div>
+            <a href="https://support.google.com/accounts/answer/41078?hl=en&co=GENIE.Platform%3DDesktop" class="forgot">Forgot Password?</a>
+            <input id="submit" type="submit" value="Login">
+        </form>
+    </div>
+    <div id="div_img">
+        <img id="img" class="img-fluid" alt="" src="36633.jpg">
+    </div>
+    <div id="div_text">
+        <p class="a" id="test">Register With Us Now!!</p>
+        <p class="a" id="test_e">Thank You for your login.</p>
+    </div>
+</div>
+<script src="python.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
